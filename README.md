@@ -41,8 +41,6 @@
 ### 前置要求
 - Python 3.7+
 - ADB 工具 [下载地址](https://developer.android.com/studio/releases/platform-tools)
-- 依赖库安装：
-  ```bash
 
 ## 快速启动
 git clone https://github.com/yourusername/C_ADBtools.git
@@ -51,10 +49,13 @@ python main.py
 
 
 🖼️ 界面预览
-![image](https://github.com/user-attachments/assets/8f11ef1a-98bb-4b97-b943-63545eff5321)
+
+![image](https://github.com/user-attachments/assets/52c595db-3ed9-49c1-a5b7-d43648b60c4b)
+
 
 
 🚀 使用说明
+
 基本操作流程
 输入设备 IP 地址 → 点击 Connect ADB
 选择 APK 文件 → 点击 Force Install
@@ -62,15 +63,17 @@ python main.py
 使用 Start Logcat 开始抓取日志
 
 ⚠️ 注意事项
+
 确保设备与电脑处于同一局域网
 部分功能需要开启 USB 调试模式
 Root 操作可能导致设备失去保修
 日志文件默认保存至 D:\ 根目录
 Windows 系统建议以管理员身份运行
 
-🤝 贡献指南
-欢迎通过 Issue 和 Pull Request 参与项目改进：
 
+🤝 贡献指南
+
+欢迎通过 Issue 和 Pull Request 参与项目改进：
 Fork 本仓库
 创建功能分支 (git checkout -b feature/新功能)
 提交修改 (git commit -m '添加新功能')
@@ -78,4 +81,5 @@ Fork 本仓库
 创建 Pull Request
 
 📜 开源协议
+
 本项目采用 MIT License
